@@ -62,7 +62,7 @@ public class MyStepdefs {
             System.out.println("Surname is missing");
             the_surname = false;
         } else {
-            System.out.println("Surname is provided");
+            System.out.println("Surname has been provided");
             the_surname = true;
         }
     }
