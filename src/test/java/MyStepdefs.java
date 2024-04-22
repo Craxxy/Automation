@@ -37,7 +37,7 @@ public class MyStepdefs {
             Ed_options.addArguments("--inprivate");
             driver = new EdgeDriver(Ed_options);
         } else {
-            throw new IllegalArgumentException("Unsupported browser: " + browser);
+            System.out.println("Wrong edited example in featurefile, please choose supported EDGE or CHROME: " + browser);
         }
         driver.get("https://membership.basketballengland.co.uk/NewSupporterAccount");
         driver.manage().window().setSize(new Dimension(1762, 927));
