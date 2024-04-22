@@ -13,11 +13,11 @@ Feature: Registration
     Then I am registered
 
     Examples:
-      | DescriptionOfScenario              |Browser | DayOfBirth | FirstName | Surname | GeneratedEmail | Password      |  | Box     |
-      | 1.Successful Registration          | Edge       | 01/01/1995 | Elias     | Hansson |                | Password12345 |  | checked   |
-      | 2.Surname Missing                  | Chrome       |01/02/1996 | Elias     |         |                | Password12345 |  | checked   |
-      | 3.Password Missmatching            | Edge       |01/03/1997 | Elias     | Husayn  |                | Password12344 |  | checked   |
-      | 4.Terms and conditions not checked | Chrome       |01/04/1998 | Elias     | Hans    |                | Password12345 |  | unchecked |
+      | DescriptionOfScenario              | Browser | DayOfBirth | FirstName | Surname | GeneratedEmail | Password      |  | Box       |
+      | 1.Successful Registration          | Edge    | 01/01/1995 | Elias     | Hansson |                | Password12345 |  | checked   |
+      | 2.Surname Missing                  | Chrome  | 01/02/1996 | Elias     |         |                | Password12345 |  | checked   |
+      | 3.Password Missmatching            | Edge    | 01/03/1997 | Elias     | Husayn  |                | Password12344 |  | checked   |
+      | 4.Terms and conditions not checked | Chrome  | 01/04/1998 | Elias     | Hans    |                | Password12345 |  | unchecked |
 
 
 
